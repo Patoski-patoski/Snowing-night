@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
     padding: 0;
@@ -6,11 +7,30 @@ body{
     overflow: hidden;
 }
 
+.fa-bolt-lightning{
+    color: #fff;
+    position: absolute;
+    animation: blink 3s linear infinite;
+    /* left: 23px; */
+    top: -20px; 
+}
+
+@keyframes blink {
+  0%{opacity: 1}
+  50%{opacity: 0}
+  75%{opacity: 0}
+  100%{opacity: 0}
+
+  to{
+
+  }
+    
+}
 
 i.fa-snowflake{
     color: #fff;
     animation: fall 5s linear infinite forwards;
-    position: absolute;  
+    position: absolute;   
 }
 
 @keyframes fall {
